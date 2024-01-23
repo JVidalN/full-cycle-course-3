@@ -1,5 +1,6 @@
 # RabbitMQ
 
+## Subjects studied
 - [x] Multiplexing connections
 - [x] Publisher
 - [x] Consumer
@@ -30,3 +31,11 @@
   - [x] Basic.Reject 
   - [x] Basic.Nack 
 - [x] Publisher confirm
+
+## How to Run
+
+Execute the `docker compose up` command inside `rabbitmq` directory to run the UI and access it via `http://localhost:15672/`
+
+## UI
+
+<img src='src/rabbitmq_ui.png'>
